@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - JavaScript Avnazado</title>
+    <link rel="stylesheet" href="Ej2-M2U2.css">
+    <script type="text/JavaScript" src= "Ej2-M2U1.js"> </script>
+</head>
+
+<body>
+  
+    <div class="contact_form">
+    <div class="formulario">			
+    <h1>Formulario de contacto</h1>
+    <h3>Escríbenos y en breve nos pondremos en contacto</h3>
+    
+    
+    <form class="formulario">				
+    <p>
+    <label for="nombre" class="nombre">Nombre</label>
+    <input id="nombre" type="text" placeholder="Escribe tu nombre">
+    </p>
+                                
+    <p>
+    <label for="email" class="email">Email</label>
+    <input id="email" type="email" placeholder="Escribe tu Email">
+    </p>
+                            
+    <p>
+    <label for="mensaje" class="mensaje">Mensaje</label>   <textarea  name="message" onkeyup="contarCaracter(this);" id="mensaje" class="mensaje" placeholder="Deja aquí tu comentario..."></textarea> 
+    </p>	  								
+    <p id="charNum">0 caracteres</p>
+      
+    <button type="submit" id="enviar"><p>Enviar</p></button>
+    
+                                    
+</form>
+      </div>
+      </div>
+    </body>
+
+</html>
