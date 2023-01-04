@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Ejercicio</title>
+  <link rel="stylesheet" href="Bootstrap.css">
+  <script src="Bootstrap.js"></script>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  
+  
+ 
+  <header>
+    <!-- scroll -->
+    <!-- <div class="container vertical-scrollable"> -->
+
+    <!-- Navegador -->   
+    <div class="nav-wrapper">
+      <div class="logo-container">
+        <img class="logo" src="img/Wof-09.jpg" alt="Logo">
+      </div>
+      <nav>
+        <input class="hidden" type="checkbox" id="menuToggle">
+        <label class="menu-btn" for="menuToggle">
+
+        </label>
+        <div class="nav-container">
+          <ul class="nav-tabs">
+            <a href="#nosotros" class="nav-tab">Nosotros</a>
+            <a href="#accordionPanelsStayOpenExample" class="nav-tab">¿Cómo Funciona?</a>
+            <a href="#" class="nav-tab">Adoptá un Amigo</a>
+            <button class="reporte">Reportar pérdida</button>
+          </ul>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Cuerpo principal -->
+  <scroll-container>
+  <div class="container text-center">
+    <div class="row align-items-start">
+      <div class="col">
+        <h1>¡Encontrá a tu mejor amigo en pocas horas!</h1>
+        <h3 class="lead">
+          Te ayudamos a viralizar la imagen de tu mascota perdida utilizando la tecnología de geolocalización
+        </h3>
+        <h3 class="lead">
+          Aseguramos llegar a miles de personas de la zona donde se extravió tu mejor amigo.
+        </h3>
+        <h3 class="lead">
+          <b>¡Podemos Encontrarlo!</b>
+        </h3>
+      </div>
+
+      <div class="col">
+        <img class="portada" src="img/chicaabrazagolden.jpeg" alt="golden">
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Nosotros -->
+  <div id="nosotros">
+    <div class="card text-bg-success mb-3" style="max-width: 700px;">
+      <div class="card-header">Nosotros</div>
+      <img src="img/hombreconperrito.jpg" alt="hombreyperro">
+            <div class="card-body">
+        <h5 class="card-title">En Wof sabemos lo que es perder a un fiel compañer@ por eso queremos ayudarte.
+
+        </h5>
+        <p class="card-text"> Somos un equipo dedicado a facilitar la búsqueda de mascotas perdidas y buscar hogar nuevo
+          a tu rescatado. Mediante la tecnología de geolocalización podremos llegar a miles de personas.</p>
+      </div>
+    </div>
+
+
+    <!-- Acordeon -->
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            ¿Cómo Funciona?
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            La clave es llegar a personas cercanas a donde desapareció tu mascota mediante geolocalización mostrando
+          fotos e información correcta tu tu mascota perdida para encontrarlo lo antes posible.
+
+          <strong>Con la geolocalización estaremos mostrando tu anuncio solo a las personas que te pueden ayudar que
+            son las personas en la zona donde tu amiguito se perdió.</strong>
+
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            Crear Alerta
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            Creamos un anuncio en redes sociales que se mostrará a las personas que están en la zona o que hayan circulado en el área de búsqueda.
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            Encontrar
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            En poco tiempo te contactarán las personas que creen haberla visto. <strong>¡No estás solo, somos miles! </strong> nosotros, somos el medio que te ayuda a reencontrarte con tu mejor amigo. <strong>¡Estaremos en permanente contacto con vos!</strong>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    </scroll-container>
+    </body>
+
+</div>
+</html>
