@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../M2U3/css/wof.css">
+    <script type="text/javascript" src="../M2U3/Js/wof.js"></script>
+
+    <!-- link fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;700;900&display=swap" rel="stylesheet">
+    <!-- fin link fuentes -->
+
+    <!-- links bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- fin links bootstrap -->
+
+
+    <title>Wof Encuentra tu Mascota</title>
+</head>
+
+<body>
+
+    <!-- inicio Navbar -->
+    <nav>
+        <img class="logo" src="../M2U3/img/Wof-09.jpg" alt="logo-wof">
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox" id="icon">
+            <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16">
+                </path>
+            </svg>
+        </label>
+        <ul>
+            <li><a href="#form-title" class="active">Reportar Pérdida</a></li>
+            <li><a href="#conteiner-titulo">¿Cómo funciona?</a></li>
+            <li><a href="#titulocarrusel">Últimos Encontrados</a></li>
+            <li><a href="#contenedoraccordion">Preguntas Frecuentes</a></li>
+            <li><a href="#titulotarjetas">Buscador de Mascotas</a></li>
+        </ul>
+    </nav>
+
+    <!-- fin Navbar -->
+
+    <!-- inicio imagen y texto Intro -->
+    <div class="container-fluid">
+        <div id="home" class="row align-items-center hero">
+            <div class="col-lg-7 offset-lg-2">
+                <p class="intro">¿Perdiste a tu mascota?</p>
+                <h1 class="titulointro">¡Encontrá a tu mejor amigo en pocas horas!</h1>
+                <p class="intro">Vamos a ayudarte a viralizar la imagen de tu mascota perdida</p>
+            </div>
+        </div>
+        <!-- fin imagen y texto intro -->
+
+        <!-- inicio doble columna -->
+
+        <div class="doble-columna">
+            <div class="row">
+                <div class="col col-primera">
+                    <img class="iconocolumna" src="../M2U3/img/icons/casa-de-mascotas.png" alt="casa-de-mascotas">
+                    <div class="panel">Ayudando a Encontrarlos</div>
+                    <p class="textopanel">Publica aquí tu mascota perdida o busca entre las que se han reportado como
+                        perdidas</p>
+                </div>
+                <div class="col col-segunda">
+                    <img class="iconocolumna" src="../M2U3/img/icons/gatito.png" alt="gatito">
+                    <div class="panel">Adopta a un amigo</div>
+                    <p class="textopanel">Aquí puedes buscar a quien te acompañará los próximos años de tu vida!!</p>
+                </div>
+            </div>
+        </div>
+        <!-- fin doble columna -->
+
+        <!-- cuerpo web -->
+
+        <!-- linea -->
+        <div class="linea"></div>
+        <!-- fin linea -->
+
+        <div class="content cuerpo-web">
+            <div id="conteiner-titulo">
+                <h2 class="titulocuerpoweb"> ¿Cómo vamos a encontrarlo? </h2>
+                <p class="textocuerpoweb">¡Porque sabemos lo que se siente perder una mascota, estaremos juntos en tu
+                    búsqueda!</p>
+            </div>
+
+            <div class="row row--grid features">
+
+                <div class="col width1-3">
+                    <div class="block">
+                        <img class="iconoscuerpo" src="../M2U3/img/icons/1-anuncio en redes.png" alt="anuncioenredes">
+                        <h3 class="titulocolumnas">Anuncio en Redes</h3>
+                        <p class="textocolumnas">Creamos un anuncio en redes sociales que se mostrará a las personas
+                            que están en la zona donde se perdió tu mascota</p>
+                    </div>
+                </div>
+
+                <div class="col width1-3">
+                    <div class="block">
+                        <img class="iconoscuerpo" src="../M2U3/img/icons/2-viralizacion.png" alt="viralizacion">
+                        <h3 class="titulocolumnas">Viralización</h3>
+                        <p class="textocolumnas">Pondremos a tu disposición todas nuestras herramientas para
+                            viralizar la búsqueda de tu mascota perdida</p>
+                    </div>
+                </div>
+
+                <div class="col width1-3">
+                    <div class="block">
+                        <img class="iconoscuerpo" src="../M2U3/img/icons/3-Contactos Potenciales.png"
+                            alt="contactospotenciales">
+                        <h3 class="titulocolumnas">Contactos Potenciales</h3>
+                        <p class="textocolumnas">Se contactarán con nosotros las personas que creen haberlo visto y
+                            coordinaremos la visita al lugar</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!-- linea -->
+        <div class="linea"></div>
+        <!-- fin linea -->
+
+        <!-- fin cuerpo web -->
+
+<!-- inicio tarjetas -->
+
+<h1 id="titulotarjetas">¡Buscador de Mascotas Perdidas</h1>
+<p class="textotarjetas">"Aquí encontrarás las mascotas perdidas de otras personas, recuerda notificar si reconoces alguna!"</p>
+
+<div class="main">
+
+    <div class="card">
+    
+    <div class="image">
+       <img src="../M2U3/img/perdidos/1 - gordi.png" alt="gordi">
+    </div>
+    <div class="title">
+     <h1> GORDI</h1>
+    </div>
+    <div class="des">
+     <p>Es super dulce y compañero, tiene un año aproximadamente, está desparasitado. Se perdió en zona Cofico, Córdoba</p>
+    <button>LO HE VISTO !</button>
+    </div>
+    </div>
+    
+    <div class="card">
+    
+    <div class="image">
+       <img src="../M2U3/img/perdidos/2 - blacky.png" alt="blacky">
+    </div>
+    <div class="title">
+     <h1>BLACKY</h1>
+    </div>
+    <div class="des">
+     <p>Es un bebé de 55 días. Sabe usar sus piedras, es super sociable, juguetón. Perdido en zona Centro, Córdoba</p>
+     <button>LO HE VISTO !</button>
+    </div>
+    </div>
+    
+    
+    
+    <div class="card">
+    
+    <div class="image">
+       <img src="../M2U3/img/perdidos/3 - Osito.png" alt="osito">
+    </div>
+    <div class="title">
+     <h1>OSITO</h1>
+    </div>
+    <div class="des">
+     <p>Perrito adulto con alma de joven.  sabe pasear con correa. Es de tamaño chico. Se perdió en zona Nueva Córdoba, Cördoba</p>
+     <button>LO HE VISTO !</button>
+    </div>
+    </div>
+    
+    
+    <div class="card">
+    
+    <div class="image">
+       <img src="../M2U3/img/perdidos/4 - Cody.png" alt="cody">
+    </div>
+    <div class="title">
+     <h1>CODY</h1>
+    </div>
+    <div class="des">
+     <p>Chiquito y muy juguetón, se lastimó la patita pero ya se está recuperando con fuerza, se perdió en zona Cruz del Eje, Córdoba</p>
+     <button>LO HE VISTO !</button>
+    </div>
+    </div>
+    
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- fin tarjetas -->
+
+        <!-- inicio carrousel -->
+        <h1 id="titulocarrusel">¡Últimos Encontrados!</h1>
+        <p class="textocarrusel">♥️ GRACIAS A QUIENES COLABORARON E HICIERON POSIBLE QUE HAYAMOS LLEGADO A TIEMPO ♥️</p>
+        <div class="container">
+            <div class="faders">
+                <div class="left"></div>
+                <div class="right"></div>
+            </div>
+
+            <div class="items">
+                <div class="entry">
+                    <p class="name">Vilma</p>
+                    <img class="imagencarrusel" src="img/Encontrados/1-encontrado.png" alt="Vilma" />
+                    <p class="quote">Encontrada el 17/12/2022 Regresó con su dueña Laura</p>
+
+                </div>
+                <div class="entry">
+                    <p class="name">Chita</p>
+                    <img src="img/Encontrados/2-encontrado.png" alt="michis" />
+                    <p class="quote">Encontrada el 2/12/2022 Regreso con su dueño Gabriel</p>
+
+                </div>
+                <div class="entry">
+                    <p class="name">Astro</p>
+                    <img src="img/Encontrados/3-encontrado.png" alt="Astro" />
+                    <p class="quote">"Encontrado el 1/11/2022 Regreso con su dueño Pablo"</p>
+                </div>
+                <div class="entry">
+                    <p class="name">Jairo</p>
+                    <img src="img/Encontrados/4-encontrado.png" alt="Jairo" />
+                    <p class="quote">"Encontrado el 5/10/2022 Regreso con su dueña Claudia"</p>
+                </div>
+                <div class="entry">
+                    <p class="name">Elan</p>
+                    <img src="img/Encontrados/5-encontrado.png" alt="Elan" />
+                    <p class="quote">"Encontrado el 17/09/2022 Regreso con su dueña Ana"</p>
+                </div>
+                <div class="entry">
+                    <p class="name">Bongo</p>
+                    <img src="img/Encontrados/6-encontrado.png" alt="Bongo" />
+                    <p class="quote">"Encontrado el 1/08/2022 Regreso con su dueño Eber"</p>
+                </div>
+                <div class="entry">
+                    <p class="name">Merlin</p>
+                    <img src="img/Encontrados/7-encontrado.png" alt="Merlin" />
+                    <p class="quote">"Encontrado el 20/07/2022 Regreso con su dueña Roxy"</p>
+                </div>
+                <div class="entry">
+                    <p class="name">Puma</p>
+                    <img src="img/Encontrados/8-encontrado.png" alt="Puma" />
+                    <p class="quote">"Encontrado el 5/05/2022 Regreso con su dueño Rodrigo"</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- fin carrousel -->
+
+        <!-- inicio accordion -->
+        <div id="contenedoraccordion">
+            <div class="accordion">
+                <h1 class="tituloaccordion">Preguntas Frecuentes</h1>
+
+                <!-- span to target fix closing accordion -->
+                <span class="target-fix" id="accordion"></span>
+
+                <!-- First Accoridon Option -->
+                <div>
+                    <!-- span to target fix accordion -->
+                    <span class="target-fix" id="accordion1"></span>
+
+                    <!-- Link to open accordion, hidden when open -->
+                    <a href="#accordion1" id="open-accordion1" title="open">¿Debo abonar algo?</a>
+
+                    <!-- Link to close accordion, hidden when closed -->
+                    <a href="#accordion" id="close-accordion1" title="close">¿Debo abonar algo?</a>
+
+                    <!-- Accorion content goes in this div -->
+                    <div class="accordion-content">
+                        <p>Si, se debe abonar el costo de la publicación en redes sociales. Además si quieres lugo
+                            puedes realizar una donación para ayudarnos a continuar con el proyecto. </p>
+                        <p>Has click para ver los precios y formas de pago </p>
+                        <a href="#" class="botonaccordion"><i class="bi bi-arrow-right-circle-fill"> </i>Comenzar
+                            ahora</a>
+                    </div>
+                </div>
+
+                <!-- Second Accoridon Option -->
+                <div>
+                    <span class="target-fix" id="accordion2"></span>
+                    <a href="#accordion2" id="open-accordion2" title="open">¿Cuáles son las ventajas de contratar
+                        Wof?</a>
+                    <a href="#accordion" id="close-accordion2" title="close">¿Cuáles son las ventajas de contratar Wof?
+                    </a>
+                    <div class="accordion-content">
+                        <p>Llegarás a miles de personas en los alrededores del lugar donde tu mascota se extravió, sin
+                            importar que la gente siga páginas de mascotas perdidas en las redes sociales. Incrementaras
+                            mucho las posibilidades de encontrar a tu mascota porque la información y fotos serán vistas
+                            por una gran cantidad de personas.
+                        </p>
+                        <p>Has click para ver los precios y formas de pago </p>
+                        <a href="#" class="botonaccordion"><i class="bi bi-arrow-right-circle-fill"> </i>Comenzar
+                            ahora</a>
+                    </div>
+                </div>
+
+                <!-- Third Accoridon Option -->
+                <div>
+                    <span class="target-fix" id="accordion3"></span>
+                    <a href="#accordion3" id="open-accordion3" title="open">¿Puedo incluir recompensa?</a>
+                    <a href="#accordion" id="close-accordion3" title="close">¿Puedo incluir una recompensa?</a>
+                    <div class="accordion-content">
+                        <p>Si, puedes incluir el monto de recompensa dependiendo el plan de publicación que elijas</p>
+                        <p>Has click para ver los precios y formas de pago </p>
+                        <a href="#" class="botonaccordion"><i class="bi bi-arrow-right-circle-fill"> </i>Comenzar
+                            ahora</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fin accordion -->
+
+
+
+
+        <!-- inicio formulario -->
+        <h1 id="form-title">¡Manos a la obra!</h1>
+        <p class="form-subtitle"> Completa la información de la manera más detalla posible. Mientras
+            más datos, más posibilidades de encontrarlo!</p>
+
+        <div class="container-formulario">
+            <!-- <div class="contenido-formulario"> -->
+
+                <form>
+                    <select>
+                        <!-- MI PERRO ES -->
+                        <option>PERRO</option>
+                        <option>GATO</option>
+                        <option>OTRO</option>
+                    </select>
+                    
+                    <!-- SEXO MASCOTA -->
+                    <select>
+                        <option>MACHO</option>
+                        <option>HEMBRA</option>
+                    </select>
+                   
+
+                    <input type="text" placeholder="NOMBRE MASCOTA">
+                    
+
+                        <p class="textoformulario">SUBI LA MEJOR FOTO DE TU MASCOTA</p>
+                        <input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple />
+                        <div class="under">
+                        </div>
+
+                        <p class="textoformulario">FECHA EN QUE SE PERDIO</p>
+                        <input type="date" placeholder="fecha">
+                        <div class="under">
+                        </div>
+                        <!-- fin primer columna formulario -->
+
+
+
+                        <p class="textoformulario">¿DÓNDE SE PERDIO?</p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6809.0751438861325!2d-64.1897398029413!3d-31.426864442022147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28fb8f9010b%3A0xf38e0d8c5a49ab83!2zTnVldmEgQ8OzcmRvYmEsIEPDs3Jkb2Jh!5e0!3m2!1ses-419!2sar!4v1673038211664!5m2!1ses-419!2sar"
+                            width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            
+
+
+
+                        <p class="textoformulario">TUS DATOS</p>
+                        <input type="text" placeholder="NOMBRE">
+                        <div class="under"></div>
+
+                        <input type="email" placeholder="EMAIL">
+                        <div class="under"></div>
+
+                        <input type="number" placeholder="CELULAR">
+                        <div class="under">
+
+
+
+                            <button type="button">ENVIAR</button>
+                            <div class="under"></div>
+                        </div>
+
+                </form>
+
+            </div>
+        </div>
+        <!-- fin registro -->
+
+
+
+        <!-- cierre div fluido body -->
+    </div>
+
+    <!-- inicio footer -->
+
+    <div id="container-fluid">
+        <footer class="footer-distributed">
+
+            <div class="footer-left">
+
+                <img class="logo-footer" src="img/Logo Wof-02.png" alt="logo-wof2">
+
+            
+                </p>
+
+                
+            </div>
+
+            <div class="footer-center">
+
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <p><span>No contamos con lugar físico pero </span> puedes contactarnos de las siguientes maneras: </p>
+                </div>
+
+                <div>
+                    <a href="https://api.whatsapp.com/send?phone=5493515950469"><i class="bi bi-whatsapp"></i></a>  
+                    <p>+549 - 3515950469</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <p><a href="mailto:analauraugo@gmail.com">analauraugo@gmail.com</a></p>
+                </div>
+
+            </div>
+
+            <div class="footer-right">
+
+                <p class="footer-company-about">
+                    <span>SIGUENOS EN REDES ROCIALES</span>
+                   
+                </p>
+
+                <div class="footer-icons">
+
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    
+
+                </div>
+
+            </div>
+    </div>
+    </footer>
+
+
+    <!-- fin footer -->
+
+
+
+
+    <!-- fin Intro -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
