@@ -1,0 +1,16 @@
+{
+  "name": "curso",
+  "version": "1.0.0",
+  "description": "Esta es mi prueba",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ana Laura Ugo",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.3",
+    "moment": "^2.29.4"
+  }
+}
