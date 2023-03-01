@@ -963,3 +963,42 @@ input[type="date"] {
 
 
 /* fin footer */
+
+/* formulario admin/login */
+.col {
+        justify-content: center;
+    align-items: center;
+    
+}
+
+#usuario {
+    width: 100%;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid;
+  padding: 15px 20px;
+  color:#8498AF;
+  font-size: .9rem;
+  transition: .4s;
+}
+
+#password {
+    width: 100%;
+  margin-bottom: 15px;
+  border-radius: 30px;
+  border: 1px solid;
+  padding: 15px 20px;
+  color:#8498AF;
+  font-size: .9rem;
+  transition: .4s;
+}
+
+.btn-primary {
+    border-radius: 30px;
+    padding: 16px 30px;
+    width: 50%;
+    color: #fff;
+    font-size: .8rem;
+    transition: .4s;
+    margin-left: 400px;
+}
