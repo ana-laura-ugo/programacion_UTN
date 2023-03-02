@@ -704,7 +704,7 @@ margin-bottom: 50px;
 }
 
 input[type="date"] {
-    color: transparent;
+    color: black;
     font-family: 'Nunito' , sans-serif;
     font-size: 20px;
     margin: 5px 0;
