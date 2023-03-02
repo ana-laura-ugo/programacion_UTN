@@ -30,7 +30,7 @@ router.post('/', async (req, res, next) => {
         if (data != undefined) {
             req.session.id_usuario = data.id; //nombre de la columna
             req.session.nombre = data.usuario; //usuario también es columna de mi BDS   
-            res.redirect('admin/novedades');
+            res.redirect('/admin/novedades');
         } else {
             res.render('admin/login', {
                 layout: 'admin/layout',

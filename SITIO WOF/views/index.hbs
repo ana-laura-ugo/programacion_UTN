@@ -63,8 +63,7 @@
 
             <div class="col width1-3">
                 <div class="block">
-                    <img class="iconoscuerpo" src="images/icons/3-Contactos Potenciales.png"
-                        alt="contactospotenciales">
+                    <img class="iconoscuerpo" src="images/icons/3-Contactos Potenciales.png" alt="contactospotenciales">
                     <h3 class="titulocolumnas">Contactos Potenciales</h3>
                     <p class="textocolumnas">Se contactarán con nosotros las personas que creen haberlo visto y
                         coordinaremos la visita al lugar</p>
@@ -318,7 +317,7 @@
 
             <input type="text" placeholder="NOMBRE MASCOTA" name="nombremascota">
 
-{{!-- 
+            {{!--
             <p class="textoformulario">SUBI LA MEJOR FOTO DE TU MASCOTA</p>
             <input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple />
             <div class="under">
@@ -328,9 +327,9 @@
             <input type="date" placeholder="fecha" name="fecha">
             <div class="under">
             </div>
-          
 
-    
+
+
             <p class="textoformulario">TUS DATOS</p>
             <input type="text" placeholder="NOMBRE" name="nombre">
             <div class="under"></div>
@@ -348,14 +347,57 @@
             </div>
 
         </form>
-<p>{{message}}</p>
+        <p>{{message}}</p>
 
 
     </div>
 </div>
 <!-- fin registro -->
 
+{{!-- inicio novedades --}}
 
+<div id="novedadescontenedor">
+    <h2 class="titulonovedades">Novedades</h2>
+    <ul class="novedades">
+
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
+                    src="/images/novedades/novedades1.jpg " alt="voluntarios">Novedades 1 </a></li>
+
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
+                    src="/images/novedades/novedades2.jpg " alt="perritonegro">Novedades 2 </a></li>
+
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
+                    src="/images/novedades/novedades3.jpg " alt="perraviejita">Novedades 3 </a></li>
+
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
+                    src="/images/novedades/novedades4.jpg " alt="fundasparaauto">Novedades 4 </a></li>
+
+    </ul>
+
+</div>
+
+
+{{!-- fin novedades --}}
+
+{{!-- inicio modal --}}
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="exampleModalLabel"> Novedad 1</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h3>Subtitulo</h3>
+                <p>cuerpo</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{{!-- fin modal --}}
 
 <!-- cierre div fluido body -->
 </div>
