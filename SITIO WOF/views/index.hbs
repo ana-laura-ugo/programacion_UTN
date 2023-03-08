@@ -359,18 +359,12 @@
 <div id="novedadescontenedor">
     <h2 class="titulonovedades">Novedades</h2>
     <ul class="novedades">
+        {{#each novedades}}
 
-        <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
-                    src="/images/novedades/novedades1.jpg " alt="voluntarios">Novedades 1 </a></li>
-
-        <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
-                    src="/images/novedades/novedades2.jpg " alt="perritonegro">Novedades 2 </a></li>
-
-        <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
-                    src="/images/novedades/novedades3.jpg " alt="perraviejita">Novedades 3 </a></li>
-
-        <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"><img
-                    src="/images/novedades/novedades4.jpg " alt="fundasparaauto">Novedades 4 </a></li>
+        <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal{{id}}"><img
+                    src="/images/novedades/novedades1.jpg " alt="voluntarios">{{titulo}}</a></li>
+{{/each}}
+       
 
     </ul>
 
@@ -380,22 +374,25 @@
 {{!-- fin novedades --}}
 
 {{!-- inicio modal --}}
+{{#each novedades}}
+<div class="modal fade" id="exampleModal{{id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">{{titulo}} 1 </h1>
 
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h2 class="modal-title" id="exampleModalLabel"> Novedad 1</h2>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <h3>Subtitulo</h3>
-                <p>cuerpo</p>
-            </div>
-        </div>
+        <h3>{{subtitulo}}</h3>
+        <p>{{cuerpo}}</p>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+       
+      </div>
     </div>
+  </div>
 </div>
-
+{{/each}}
 
 {{!-- fin modal --}}
 
