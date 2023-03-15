@@ -645,8 +645,8 @@ background-color: #27AE60;
 
 
 .container-formulario {
-    background: url(../images/wallpaper2.png);
-    margin-left: 50px;
+background: url(../images/wallpaper2.png);
+margin-left: 50px;
 margin-right: 5px;
 align-items: center;
 align-content: center;
@@ -686,12 +686,12 @@ margin-bottom: 50px;
 
 
  input[type=text], [type=email], [type=file], [type="date"] {
-     border: none;
-     border-bottom: 1px solid black;
-     outline:none;
+     /* border: none; */
+     /* border-bottom: 1px solid black; */
+     /* outline:none; */
      width:100%;
      margin: 5px 0;
-     padding:5px 0;
+     padding:10px 0;
  }
 
  input[type="file"] {
@@ -1080,3 +1080,85 @@ opacity: 1;
     text-align: right;
     margin-top: 10px;
 }
+
+
+/* formulario nueva novedad */
+
+.container-novedades {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+.form-group {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+    position: relative;
+    transition: all .2s ease-in-out;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .form-group:hover {
+    /* box-shadow: 0 5px 22px 0 rgba(0,0,0,.25); */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+
+  
+  input, textarea {
+      margin: 0 0 20px 0;
+      padding: 12px 5%;
+      width: 90%;
+      border: 0;
+      border-radius: 4px;
+      background-color: #FFFFFF;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+      color: #2C3E50;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+  }
+  
+  .titulo-novedades {
+    font-size: 3.444rem;
+    color:#1d3247;
+    text-align: center;
+  }
+
+  #btnguardarnovedad {
+    
+    background-color:#2ECC71;
+    padding: 10px;
+    margin: 20px;
+    /* position: relative; */
+    color: #FFF;
+    /* font-size: 30px; */
+    cursor: pointer;
+    align-content: center;
+  }
+
+  #btnguardarnovedad:hover {
+    box-shadow: 0 5px 22px 0 rgba(0,0,0,.25); 
+    transition: all .2s ease-in-out;
+  }
+
+  .btn-guardarnovedad {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    text-align: center;
+  }
+
+  .errornovedades {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    text-align: center;
+  }
