@@ -362,7 +362,7 @@
         {{#each novedades}}
 
         <li><a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal{{id}}"><img
-                    src="/images/novedades/novedades1.jpg " alt="voluntarios">{{titulo}}</a></li>
+                    src="{{imagen}}"  alt="voluntarios">{{titulo}}</a></li>
 {{/each}}
        
 
@@ -385,6 +385,7 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
+        <img src="{{imagen}}"  alt="voluntarios">
          <h3>{{subtitulo}}</h3>
         <p>{{cuerpo}}</p>
        

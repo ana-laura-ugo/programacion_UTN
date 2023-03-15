@@ -783,7 +783,7 @@ input[type="date"] {
     padding: 0;
 list-style: none;
 flex-wrap: wrap;
-/* display: flex; */
+display: flex;
 justify-content:center;
 align-items: center;
 align-content: center;
